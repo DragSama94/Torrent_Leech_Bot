@@ -62,7 +62,7 @@ async def status_message_f(client, message):
             gid_dict[chat_id].pop()
             gid_dict[chat_id].append(mess_id)
 
-    prev_mess = "By GopalSaraf"
+    prev_mess = "By Dragon Sama"
     while True:
         downloads = aria_i_p.get_downloads()
         msg = ""
