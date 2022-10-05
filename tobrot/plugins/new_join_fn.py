@@ -24,4 +24,4 @@ async def start_fn(client, message):
             ),
         )
     elif message.from_user.id in AUTH_CHANNEL:
-        await message.reply_text(f"Hey {message.from_user.first_name}!\nI'm alive.\nA Leecher Bot by Dragon Sama.")
+        await message.reply_text(f"Hey {message.from_user.first_name}!\nI'm alive.\nI am a Leecher Bot by Dragon Sama.")
